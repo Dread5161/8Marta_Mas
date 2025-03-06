@@ -17,18 +17,18 @@ const compliments = [
   "Ты - настоящее сокровище! 💎"
 ];
 
-// Музыкальный плеер (10 треков)
+
 const songs = [
-  { src: "assets/song1.mp3", vinyl: "assets/vinyl1.png" },
-  { src: "assets/song2.mp3", vinyl: "assets/vinyl2.png" },
-  { src: "assets/song3.mp3", vinyl: "assets/vinyl3.png" },
-  { src: "assets/song4.mp3", vinyl: "assets/vinyl4.png" },
-  { src: "assets/song5.mp3", vinyl: "assets/vinyl5.png" },
-  { src: "assets/song6.mp3", vinyl: "assets/vinyl6.png" },
-  { src: "assets/song7.mp3", vinyl: "assets/vinyl7.png" },
-  { src: "assets/song8.mp3", vinyl: "assets/vinyl8.png" },
-  { src: "assets/song9.mp3", vinyl: "assets/vinyl9.png" },
-  { src: "assets/song10.mp3", vinyl: "assets/vinyl10.png" }
+  { src: "assets/song1.mp3", vinyl: "vinyl  /vinyl1.png" },
+  { src: "assets/song2.mp3", vinyl: "vinyl/vinyl2.png" },
+  { src: "assets/song3.mp3", vinyl: "vinyl/vinyl3.png" },
+  { src: "assets/song4.mp3", vinyl: "vinyl/vinyl4.png" },
+  { src: "assets/song5.mp3", vinyl: "vinyl/vinyl5.png" },
+  { src: "song2/song6.mp3", vinyl: "vinyl/vinyl6.png" },
+  { src: "song2/song7.mp3", vinyl: "vinyl/vinyl7.png" },
+  { src: "song2/song8.mp3", vinyl: "vinyl/vinyl8.png" },
+  { src: "song2/song9.mp3", vinyl: "vinyl/vinyl9.png" },
+  { src: "song2/song10.mp3", vinyl: "vinyl/vinyl10.png" }
 ];
 
 let currentSongIndex = Math.floor(Math.random() * songs.length);
